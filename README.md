@@ -19,7 +19,7 @@ Use the -c option to create the file and -B for bcrypt encryption.
 htpasswd -c -B users.htpasswd admin
 ```
 
-# The command will prompt you to enter and confirm the password for 'admin'.
+**The command will prompt you to enter and confirm the password for 'admin'.**
 
 Add the developer user:
 Omit the -c option to append to the existing file.
@@ -28,7 +28,7 @@ Omit the -c option to append to the existing file.
 htpasswd -B users.htpasswd developer
 ```
 
-# The command will prompt you to enter and confirm the password for 'developer'.
+**The command will prompt you to enter and confirm the password for 'developer'.**
 Verify the file contents:
 The file should contain two lines, each with a username and a hashed password.
 
